@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To_Do_List</title>
+
+
+    <link rel="stylesheet" href="aseets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="aseets/css/all.min.css">
+    <link rel="stylesheet" href="aseets/css/style.css">
+</head>
+
+<body>
+
+    <section>
+        <div class="container">
+            <div class="row">
+
+                <!-- menu section start-->
+                <div class="col-lg-3">
+                    <div class="menu-section">
+                        <div class="header">
+                            <p id="menu">Menu</p>
+                        </div>
+                        <div class="menu-content">
+                            <div class="content-header">
+                                <span class="task">#Task</span>
+                            </div>
+                            <div class="contant-items">
+                                <div class="complete all">
+                                    <p>Complete</p>
+                                    <span id="totalComplete">00</span>
+                                </div>
+                                <div class="running all">
+                                    <p>Running</p>
+                                    <span id="totalRunning">00</span>
+                                </div>
+                                <div class="cancel all">
+                                    <p>Cancel</p>
+                                    <span id="totalCancel">00</span>
+                                </div>
+                                <div class="upcoming all">
+                                    <p>Upcoming</p>
+                                    <span id="totalUpcoming">00</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="filter">
+                            <div class="filter-haeder">
+                                <span>#Filter</span>
+                            </div>
+                            <div class="filter-items">
+                                <div class="filter-mama complete"></div>
+                                <div class="filter-mama running"></div>
+                                <div class="filter-mama upcoming"></div>
+                                <div class="filter-mama cancel"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- menu section end -->
+
+                <!-- second section start -->
+                <div class="col-lg-9">
+
+                    <!-- search bar start -->
+                    <div class="search">
+                        <div class="search-header">
+                            <h3>Manage Your Task Here</h3>
+                        </div>
+                        <div class="search-bar">
+                            <form>
+                                <input type="search" placeholder="Search Here...">
+                            </form>
+                        </div>
+                    </div>
+                    <!-- search bar end -->
+
+                    <!-- items section start -->
+                    <div class="items">
+                        <div class="for-positon">
+                            <ul class="ul-item" id="ulItem">
+                                <!-- keep this empty -->
+                                <div class="btn-button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                    <i class="fa-solid fa-plus fa-xl i-button"></i>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- items section end -->
+
+                </div>
+                <!-- second section end -->
+            </div>
+        </div>
+    </section>
+
+
+    <!-- modal start -->
+    <div class="modal fade" id="exampleModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-4" id="exampleModalLabel"># Add a new task </h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="form-area">
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Title" name="title">
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" placeholder="Description" name="description"></textarea>
+                        </div>
+                        <select class="form-select select" name="status">
+                            <option value="complete">complete</option>
+                            <option value="running">running</option>
+                            <option value="cancel">cancel</option>
+                            <option value="upcoming">upcoming</option>
+                        </select>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" id="btn" class="footer">Add</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+    <script src="aseets/js/bootstrap.bundle.min.js"></script>
+    <script src="aseets/js/all.min.js"></script>
+    <script src="aseets/js/custom.js"></script>
+</body>
+
+</html>
